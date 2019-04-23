@@ -1,5 +1,6 @@
-
 # Multiply of 100 numbers 
+
+
 count = 1
 for i in range(1, 101):
     count = count*i
