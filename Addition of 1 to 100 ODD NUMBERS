@@ -1,0 +1,10 @@
+# MathsMania
+Maths Projects
+# 6  Addition of 1 to 100 ODD NUMBERS
+count = 0
+
+for i in range(1, 101):
+    print(i)
+    if i % 2 == 1:
+        count = count+i
+print(count)
