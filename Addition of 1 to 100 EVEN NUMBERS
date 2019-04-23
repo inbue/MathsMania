@@ -1,0 +1,10 @@
+# MathsMania
+Maths Projects
+# Addition of 1 to 100 EVEN NUMBERS
+count = 0
+
+for i in range(1, 101):
+    print(i)
+    if i % 2 == 0:
+        count = count+i
+print(count)
